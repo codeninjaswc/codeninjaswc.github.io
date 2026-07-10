@@ -1,0 +1,14 @@
+#cookie {
+	width:200px;
+	height:200px;
+}
+
+#cursor {
+	width:20px;
+	height:20px;
+	opacity: 0.01;
+}
+
+body {
+	background:#28bd4f;
+}

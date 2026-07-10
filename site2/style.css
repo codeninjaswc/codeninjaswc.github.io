@@ -1,0 +1,77 @@
+#fish {
+width:250px;
+height:180px;
+}
+
+#beta {
+width:250px;
+height:180px;
+}
+
+#fishy {
+width:250px;
+height:180px;
+}
+
+#blue {
+width:250px;
+height:180px;
+}
+
+#dory {
+width:250px;
+height:180px;
+}
+
+#dumbo {
+width:250px;
+height:180px;
+}
+
+body {
+	background:#03d3fc;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 260px;
+  padding-right: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#shimeji {
+	position: fixed;
+	width: 96px;
+	height: 120px;
+	right: 200px;
+	bottom: -400px;
+	cursor: grab;
+	image-rendering: pixelated;
+	transition: transform 0.15s linear;
+	user-select: none;
+}
+#shimeji.dragging {
+	cursor: grabbing;
+	transform: scale(1.05);
+}
+#shimeji img{
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	opacity: 0.85;
+}
