@@ -1,0 +1,16 @@
+#cc {
+	width: 200px;
+	height: 200px;
+}
+body {
+	background: #000000;
+}
+
+#points {
+	color: white;
+}
+#cursor {
+	width: 10px;
+	height: 10px;
+	opacity: 0.01;
+}

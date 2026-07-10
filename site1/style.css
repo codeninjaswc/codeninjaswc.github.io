@@ -1,0 +1,38 @@
+body {
+	background-image: url("g.jpg");
+	font-size: 32px;
+}
+
+h1 {
+	background: -webkit-linear-gradient(#000, #fff, #000);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+p {
+	background: -webkit-linear-gradient(#e00, #0e0, #00e);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+#sunny {
+	position: fixed;
+	width: 400px;
+	height: 400px;
+	right: 600px;
+	bottom: -100px;
+	cursor: grab;
+	image-rendering: pixelated
+	transition: transform 0.15s linear;
+	user-select: none;
+}
+#sunny.dragging {
+	cursor: grabbing;
+	transform: scale(1.05);
+}
+#sunny img {
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	opacity: 0.85;
+}
